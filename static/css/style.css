@@ -1,57 +1,57 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap");
 /* font-family: 'Quicksand', sans-serif; */
 
 :root {
-    --fp-main-aubergine: #35205C;
-    --fp-accent-plum: #7D4098;
-    --fp-dark-petrol: #0B3954;
-    --fp-dark-steel: #181D2C;
-    --fp-grey-light: #E9E3E6;
-    --fp-grey-medium: #959193;
-    --fp-accent-cherry: #CC2936;
-    --fp-accent-apple:#0BBC62;
-    --fp-opacity: rgba(255,255,255, 0.3);
-  }
+  --fp-main-aubergine: #35205c;
+  --fp-accent-plum: #7d4098;
+  --fp-dark-petrol: #0b3954;
+  --fp-dark-steel: #181d2c;
+  --fp-grey-light: #e9e3e6;
+  --fp-grey-medium: #959193;
+  --fp-accent-cherry: #cc2936;
+  --fp-accent-apple: #0bbc62;
+  --fp-opacity: rgba(255, 255, 255, 0.3);
+}
 
 body {
-    font-family: 'Quicksand', sans-serif;
-    color: var(--fp-main-aubergine);
+  font-family: "Quicksand", sans-serif;
+  color: var(--fp-main-aubergine);
 }
 
 main {
-    height: 85vh;
+  height: 85vh;
 }
 
 button {
-    background-color: white;
-    color: var(--fp-accent-plum);
-    border-radius: 5px;
-    padding: 10px;
-    margin: 10px;
-    font-family: inherit;
+  background-color: white;
+  color: var(--fp-accent-plum);
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  font-family: inherit;
 }
 
 ul {
-    list-style-type: circle;
+  list-style-type: circle;
 }
 
 .delete-btn {
-    color: var(--fp-accent-apple);
-    margin-left: 10px;
+  color: var(--fp-accent-apple);
+  margin-left: 10px;
 }
 
 .delete-btn:hover {
-    color: var(--fp-accent-cherry);
-    cursor: pointer;
+  color: var(--fp-accent-cherry);
+  cursor: pointer;
 }
 
 .football-teams {
-    display:flex;
-    flex-direction: row;
-    list-style-type: none;
-    justify-content: space-evenly;
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  justify-content: space-evenly;
 }
 
 .darkMode {
-    background-color: darkgray;
+  background-color: darkgray;
 }
