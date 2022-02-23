@@ -44,3 +44,14 @@ ul {
     color: var(--fp-accent-cherry);
     cursor: pointer;
 }
+
+.football-teams {
+    display:flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-evenly;
+}
+
+.darkMode {
+    background-color: darkgray;
+}
