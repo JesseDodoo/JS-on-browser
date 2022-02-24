@@ -1,6 +1,16 @@
 let heading = document.querySelector("#heading");
 let h2El = document.querySelector("#team-list");
 let bodyKeyPress = document.querySelector("body");
+let anchors = document.querySelectorAll('a')
+
+
+anchors.forEach( (anchor)=> {
+anchor.addEventListener("click", ()=> {
+  document.querySelector(anchor.getAttribute('href')).classList.toggle('selected')
+})
+
+}) 
+
 
 heading.addEventListener("click", (e) => {
   let body = document.querySelector("body");

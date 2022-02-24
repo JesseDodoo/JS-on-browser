@@ -55,3 +55,8 @@ ul {
 .darkMode {
   background-color: darkgray;
 }
+
+.selected {
+  font-size: 2rem;
+  font-weight: bold;
+}
